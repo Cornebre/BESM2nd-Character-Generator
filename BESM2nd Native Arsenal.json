@@ -1,0 +1,778 @@
+{
+  "arsenal": [
+    {
+      "name": "Battleaxe",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Inaccurate",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Baton or club",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": []
+    },
+    {
+      "name": "Bokken (wooden sword)",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": []
+    },
+    {
+      "name": "Caltrops (bag)",
+      "level": "3",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Area Effect",
+          1
+        ],
+        [
+          "Concealable",
+          1
+        ],
+        [
+          "Trap",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Chainsaw",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Penetrating (Armour)",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Combat yo-yo",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ],
+        [
+          "Flexible",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Garrotte wire",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "Source damage: 5",
+      "advantages": [],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Greatsword",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Inaccurate",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Katana or longsword (1H)",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": []
+    },
+    {
+      "name": "Katana or longsword (2H)",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Knife or dagger",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Lance",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Lightsword",
+      "level": "6",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ],
+        [
+          "Penetrating (Full Armour)",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Morningstar, flail or mace",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": []
+    },
+    {
+      "name": "Nunchaku",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Flexible",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Pepper spray",
+      "level": "5",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ],
+        [
+          "Irritant",
+          1
+        ],
+        [
+          "Stun",
+          1
+        ],
+        [
+          "Toxic",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Polearm (various)",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Quarterstaff",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Sap",
+      "level": "3",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ],
+        [
+          "Stun",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Scythe",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Shield bash",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Inaccurate",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Spear",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Stunner",
+      "level": "7",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ],
+        [
+          "Incapacitating",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Wakizashi or shortsword",
+      "level": "3",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Warhammer or maul",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Whip",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Flexible",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Wooden stake",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Acid (flask)",
+      "level": "4",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Burning",
+          1
+        ],
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Short Range",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Bow or daikyu",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Crossbow",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Slow (1 Turn)",
+          1
+        ],
+        [
+          "Static",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Crossbow, miniature",
+      "level": "2",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": []
+    },
+    {
+      "name": "Net or lasso",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Tangle",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "No Damage",
+          1
+        ],
+        [
+          "Inaccurate",
+          1
+        ],
+        [
+          "Melee",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Sling or slingshot",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Inaccurate",
+          1
+        ],
+        [
+          "Short Range",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Shuriken",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Short Range",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Grenade",
+      "level": "4",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Area Effect",
+          1
+        ],
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Short Range",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Machine gun",
+      "level": "7",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Autofire",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Static",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Pistol, heavy or blaster",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [],
+      "defects": [
+        [
+          "Short Range",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Pistol, light",
+      "level": "0",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Concealable",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ],
+        [
+          "Short Range",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Rifle, assault or blaster",
+      "level": "4",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Autofire",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Rifle, sniper",
+      "level": "3",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Accurate",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Rocket launcher",
+      "level": "7",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Area Effect",
+          1
+        ],
+        [
+          "Penetrating (Armour)",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Inaccurate",
+          1
+        ],
+        [
+          "Slow (1 Turn)",
+          1
+        ],
+        [
+          "Static",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Shotgun",
+      "level": "1",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Spreading",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Low Penetration",
+          1
+        ],
+        [
+          "Short Range",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Submachine gun",
+      "level": "3",
+      "modifier": "0",
+      "gear": true,
+      "desc": "",
+      "advantages": [
+        [
+          "Autofire",
+          1
+        ]
+      ],
+      "defects": [
+        [
+          "Short Range",
+          1
+        ],
+        [
+          "Two Hands",
+          1
+        ]
+      ]
+    }
+  ]
+}
