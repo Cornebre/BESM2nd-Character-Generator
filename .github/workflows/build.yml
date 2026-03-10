@@ -24,9 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install pyinstaller reportlab
-
-      - name: Debug - list files
-        run: ls -la
         
       - name: Build executable (Windows)
         if: runner.os == 'Windows'
