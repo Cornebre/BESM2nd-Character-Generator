@@ -1,4 +1,4 @@
-# BESM 2nd Retro Edition — Character Creator
+# BESM Retro 2nd Edition — Character Creator
 
 ![BESM Logo](BESM2_Retro_logo_dtrpg_250px.png)
 
