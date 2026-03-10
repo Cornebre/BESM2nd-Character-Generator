@@ -31,7 +31,7 @@ jobs:
       - name: Build executable (Windows)
         if: runner.os == 'Windows'
         run: |
-          pyinstaller --onefile `
+          pyinstaller --onefile --noconsole `
             --add-data "besm2nd_config_eng.toml;." `
             --add-data "besm2nd_config_fra.toml;." `
             --add-data "BESM2nd_Native_Arsenal.json;." `
