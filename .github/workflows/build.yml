@@ -24,37 +24,37 @@ jobs:
 
       - name: Install dependencies
         run: pip install pyinstaller reportlab
-        
+
       - name: Build executable (Windows)
         if: runner.os == 'Windows'
-        run: >
-          pyinstaller --onefile
-          --add-data "besm2nd_config_eng.toml;."
-          --add-data "besm2nd_config_fra.toml;."
-          --add-data "BESM2nd_Native_Arsenal.json;."
-          --add-data "BESM2_Retro_logo_dtrpg_250px.png;."
-          --name "BESM2nd_CharGen"
-          BESM2nd_CharGen.py
+        run: |
+          pyinstaller --onefile `
+            --add-data "besm2nd_config_eng.toml;." `
+            --add-data "besm2nd_config_fra.toml;." `
+            --add-data "BESM2nd_Native_Arsenal.json;." `
+            --add-data "BESM2_Retro_logo_dtrpg_250px.png;." `
+            --name "BESM2nd_CharGen" `
+            BESM2nd_CharGen.py
 
       - name: Build executable (Linux)
         if: runner.os == 'Linux'
-        run: >
-          pyinstaller --onefile
-          --add-data "besm2nd_config_eng.toml:."
-          --add-data "besm2nd_config_fra.toml:."
-          --add-data "BESM2nd_Native_Arsenal.json:."
-          --add-data "BESM2_Retro_logo_dtrpg_250px.png:."
-          --name "BESM2nd_CharGen"
-          BESM2nd_CharGen.py
+        run: |
+          pyinstaller --onefile \
+            --add-data "besm2nd_config_eng.toml:." \
+            --add-data "besm2nd_config_fra.toml:." \
+            --add-data "BESM2nd_Native_Arsenal.json:." \
+            --add-data "BESM2_Retro_logo_dtrpg_250px.png:." \
+            --name "BESM2nd_CharGen" \
+            BESM2nd_CharGen.py
 
       - name: Upload to Release (Windows)
-        if: runner.os == 'Windows'
+        if: runner.os == 'Windows' && github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
           files: dist/BESM2nd_CharGen.exe
 
       - name: Upload to Release (Linux)
-        if: runner.os == 'Linux'
+        if: runner.os == 'Linux' && github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
           files: dist/BESM2nd_CharGen
