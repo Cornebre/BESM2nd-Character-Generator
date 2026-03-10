@@ -45,7 +45,7 @@ BESM2nd Mecha/        ← your saved mecha (JSON)
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/BESM2nd-CharGen.git
+git clone https://github.com/Cornebre/BESM2nd-CharGen.git
 cd BESM2nd-CharGen
 
 # Run directly
