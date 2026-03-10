@@ -108,7 +108,7 @@ BESM2_Retro_logo_dtrpg_250px.png ← app logo
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
-*BESM (Big Eyes, Small Mouth) is a trademark of Dyskami Publishing Company. This tool is a fan-made utility and is not affiliated with or endorsed by Dyskami Publishing.*
+*BESM (Big Eyes, Small Mouth) and its logo are a trademark of Dyskami Publishing Company. This tool is a fan-made utility and is not affiliated with or endorsed by Dyskami Publishing.*
 
 ---
 
